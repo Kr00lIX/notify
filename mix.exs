@@ -28,6 +28,11 @@ defmodule Notify.Mixfile do
   #
   # Type "mix help deps" for more examples and options
   defp deps do
-    [{:joken, "~> 1.4"}, {:poison, "~> 2.2"}, {:kadabra, "~> 0.2.0"}, {:httpotion, "~> 3.0.2"}]
+    [
+      {:joken, "~> 1.4"}, 
+      {:poison, "~> 3.0"}, 
+      {:kadabra, "~> 0.2.0"}, 
+      {:httpotion, "~> 3.0.2"}
+    ]
   end
 end
